@@ -16,13 +16,13 @@ return obj
 
 //returns object without the delete key/value pair
 function deleteFromObjectByKey(obj, key, value) {
-var newObj = Object.assing({}, object);
+var newObj = Object.assing({}, obj);
 delete newObj[key];
 return newObj;
 }
 
 //modfies the original object
 function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
-delete object[key];
-return object;
+delete obj[key];
+return obj;
 }
