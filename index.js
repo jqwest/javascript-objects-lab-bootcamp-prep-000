@@ -22,7 +22,7 @@ return newObj;
 }
 
 //modfies the original object
-function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+function destructivelyUpdateObjectWithKeyAndValue(obj, key) {
 delete obj[key];
 return obj;
 }
