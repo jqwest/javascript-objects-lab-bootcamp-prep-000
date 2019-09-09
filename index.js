@@ -9,6 +9,6 @@ return updateObjectWithKeyAndValue
 }
 
 
-fucntion destructivelyUpdateObjectWithKeyAndValue (obj, key, value) {
-  
+fucntion destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+
 }
