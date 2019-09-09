@@ -9,6 +9,6 @@ return updateObjectWithKeyAndValue
 }
 
 
-fucntion destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
+function destructivelyUpdateObjectWithKeyAndValue(obj, key, value) {
 
 }
