@@ -16,7 +16,7 @@ return obj
 
 //returns object without the delete key/value pair
 function deleteFromObjectByKey(obj, key, value) {
-var newObj = Object.assing({}, obj);
+var newObj = Object.assign({}, obj);
 delete newObj[key];
 return newObj;
 }
